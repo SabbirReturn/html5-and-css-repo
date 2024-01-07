@@ -1,0 +1,10 @@
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid red;
+    padding: 5px 10px ;
+}
+.t-footer{
+    text-align: center;
+}
