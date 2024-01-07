@@ -6,10 +6,17 @@ nav li a{
     text-decoration: none;
 }
 nav,h2{
-    text-align: center;
+    text-align: cen
+    /* text-align: center; */
 }
 label{
-    text-align: center;
+    /* text-align: center; */
     display: block;
     margin-top: 10px;
 }
+.primary-btn{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ 
