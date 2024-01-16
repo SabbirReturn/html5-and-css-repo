@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive-Website</title>
+    <style>
+        body{
+            border: 1px solid red;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+        .conteiner{
+            display: flex;
+        }
+        .conteiner img{
+            width: 50%;
+        }
+        .conteiner div{
+            width: 100%;
+        }
+        @media screen and (max-width:577px) {
+            .conteiner{
+                flex-direction: column-reverse; 
+                gap: 10px;
+                background-color: slategrey;
+            }           
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive-Website</h1>
+    <div class="conteiner">
+        <div>
+            <!-- <h1>This a food</h1> -->
+            <img src="assets/image/tiger.webp" alt="">
+        </div>
+        <div>
+            <img src="assets/image/cat1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

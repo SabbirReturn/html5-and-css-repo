@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        .conteinar{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            /* justify-content: space-between; */
+            gap: 20px;
+        }
+        img{
+            width: 100%;
+        }
+        .food{
+            border: 1px solid salmon;
+            border-radius: 5px;
+            padding: 10px ;
+        }
+        /* smaller-device */
+        @media screen and (max-width:576px) {
+            .conteinar{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        /* medium-device */
+        @media screen and (min-width: 577px) and (max-width: 977px) {
+            .conteinar{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="conteinar">
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+        <div class="food">
+            <h1>This is a Healty Food</h1>
+            <img src="assets/image/food.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque maxime inventore tempora nam optio explicabo voluptate repellat praesentium ipsum.</p>
+        </div>
+    </div>
+</body>
+</html>
