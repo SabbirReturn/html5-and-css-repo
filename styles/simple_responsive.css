@@ -1,0 +1,36 @@
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.A{
+    height: 300px;
+    margin-bottom: 10px;
+}
+.bc{
+    display: flex;
+    height: 300%;
+    gap: 10px;
+    height: 300px;
+}
+.de img{
+    height: 50%;
+}
+.bc>div{
+    flex: 1;
+}
+.picture{
+    display: flex;
+    gap: 10px;
+    height: 300px;
+    margin-top: 10px;
+}
+.squre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 300px;
+    gap: 5px;
+}
+.picture div{
+    flex: 1;
+}
