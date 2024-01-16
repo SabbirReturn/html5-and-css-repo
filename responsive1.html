@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 1140px;
+            margin: 0 auto;
+            border: 1px solid red;
+        }
+        .conteiner{
+            display: flex;
+            gap: 20px;   
+        }
+        .details{
+            background-color: salmon;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .iteams{
+            border: 1px solid red;
+            height: 200px;
+            width: 100px;
+            background-color: aqua;
+        }
+        .conteiner2{
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+            gap: 20px;
+            
+        }
+        @media screen and (max-width:577px) {
+            .conteiner{
+                flex-direction: column;
+            }  
+            .conteiner2{
+                flex-direction: column(2);
+            }          
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="details">
+            <h1>Fisrt Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae in veniam aliquid quas, porro eaque possimus ducimus itaque, dolor quam numquam, deleniti perspiciatis dignissimos cumque repellat amet molestiae enim rerum. Fugiat nisi labore ullam quae in, veniam provident similique sapiente numquam nostrum nesciunt vel enim doloribus itaque cum ipsa.</p>
+        </div>
+        <div class="details">
+            <h1>Second Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae in veniam aliquid quas, porro eaque possimus ducimus itaque, dolor quam numquam, deleniti perspiciatis dignissimos cumque repellat amet molestiae enim rerum. Fugiat nisi labore ullam quae in, veniam provident similique sapiente numquam nostrum nesciunt vel enim doloribus itaque cum ipsa.</p>
+        </div>
+    </div>
+    <div class="conteiner2">
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+        <div class="iteams"></div>
+    </div>
+</body>
+</html>
