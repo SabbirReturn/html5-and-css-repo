@@ -34,3 +34,14 @@ img{
 .picture div{
     flex: 1;
 }
+@media screen and (max-width:577px) {
+    .A, .bc, .de,.picture{
+         flex-direction: column;
+         height: auto;
+         
+    }
+    .squre{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+}
